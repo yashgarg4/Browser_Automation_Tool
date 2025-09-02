@@ -1,4 +1,4 @@
-# Game Scraper Suite
+# Browser Automation Tool
 
 A collection of Python scripts designed to scrape game information from popular web game portal like CrazyGames.com. The tool extracts details for top games within a specified genre and saves the data neatly into an Excel file.
 
