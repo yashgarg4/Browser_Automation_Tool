@@ -72,7 +72,7 @@ playwright install
 
 ## Usage
 
-You can run each scraper individually from your terminal. Make sure your virtual environment is activated.
+You can run each scraper individually from your terminal. Make sure the virtual environment is activated.
 
 ### Scraping from CrazyGames.com
 
