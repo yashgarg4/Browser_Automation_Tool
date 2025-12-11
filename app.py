@@ -53,8 +53,6 @@ async def get_game_details(page, game_name: str) -> dict:
                 else:
                     details["Rating"] = text.replace("Rating:", "").strip()
 
-            # elif "Platform:" in text:
-
             elif True:
                 text = await info_blocks.nth(i).locator("div").nth(0).inner_text()
                 if "Platform" in text:
@@ -196,3 +194,4 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
